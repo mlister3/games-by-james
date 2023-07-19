@@ -1,0 +1,23 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+  overflow: hidden; /* Prevent scrolling beyond initial boundary */
+}
+
+.legend {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 20px;
+  height: 10px;
+  margin-right: 5px;
+}
