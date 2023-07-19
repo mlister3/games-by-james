@@ -1,23 +1,71 @@
+/* CSS Framework for Game Store Website */
+
+/* Global Styles */
+
 body {
+  font-family: Arial, sans-serif;
+  background-color: #FDFDFD;
+  color: #333333;
+  margin: 0;
   padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #FFD700;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  color: #8B0000;
+  font-size: 28px;
+  font-weight: bold;
   margin: 0;
 }
 
-#map,
-body,
-html {
-  height: 100%;
-  overflow: hidden; /* Prevent scrolling beyond initial boundary */
-}
+/* Navigation Styles */
 
-.legend {
+.navbar {
+  background-color: #FFD700;
   padding: 10px;
-  border-radius: 5px;
 }
 
-.legend-color {
-  display: inline-block;
-  width: 20px;
-  height: 10px;
-  margin-right: 5px;
+/* Add your navigation links styling here */
+
+/* Section Styles */
+
+section {
+  padding: 20px;
+}
+
+/* Add specific section styles for different sections of your website */
+
+/* Footer Styles */
+
+footer {
+  background-color: #333333;
+  color: #FDFDFD;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add additional styles for footer if needed */
+
+/* Link Styles */
+
+a {
+  color: #8B0000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FF0000;
 }
